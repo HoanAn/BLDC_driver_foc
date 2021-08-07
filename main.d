@@ -1,9 +1,10 @@
 .\main.o: main.c
 .\main.o: stm32f0xx.h
-.\main.o: D:\KeilC\ARM\CMSIS\Include\core_cm0.h
+.\main.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\core_cm0.h
 .\main.o: D:\KeilC\ARM\ARMCC\bin\..\include\stdint.h
-.\main.o: D:\KeilC\ARM\CMSIS\Include\core_cmInstr.h
-.\main.o: D:\KeilC\ARM\CMSIS\Include\core_cmFunc.h
+.\main.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_version.h
+.\main.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_compiler.h
+.\main.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_armcc.h
 .\main.o: system_stm32f0xx.h
 .\main.o: stm32f0xx_conf.h
 .\main.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h
@@ -37,3 +38,13 @@
 .\main.o: DMA_control.h
 .\main.o: I_O_control.h
 .\main.o: Communication.h
+.\main.o: Contronller.h
+.\main.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\dsp/fast_math_functions.h
+.\main.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\arm_math_types.h
+.\main.o: D:\KeilC\ARM\ARMCC\bin\..\include\string.h
+.\main.o: D:\KeilC\ARM\ARMCC\bin\..\include\math.h
+.\main.o: D:\KeilC\ARM\ARMCC\bin\..\include\float.h
+.\main.o: D:\KeilC\ARM\ARMCC\bin\..\include\limits.h
+.\main.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\arm_math_memory.h
+.\main.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\dsp/none.h
+.\main.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\dsp/utils.h

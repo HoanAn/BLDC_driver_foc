@@ -1,10 +1,11 @@
 .\stm32f0xx_syscfg.o: STM32F0xx_StdPeriph_Driver\src\stm32f0xx_syscfg.c
 .\stm32f0xx_syscfg.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_syscfg.h
 .\stm32f0xx_syscfg.o: ..\3phase_inverter\stm32f0xx.h
-.\stm32f0xx_syscfg.o: D:\KeilC\ARM\CMSIS\Include\core_cm0.h
+.\stm32f0xx_syscfg.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\core_cm0.h
 .\stm32f0xx_syscfg.o: D:\KeilC\ARM\ARMCC\bin\..\include\stdint.h
-.\stm32f0xx_syscfg.o: D:\KeilC\ARM\CMSIS\Include\core_cmInstr.h
-.\stm32f0xx_syscfg.o: D:\KeilC\ARM\CMSIS\Include\core_cmFunc.h
+.\stm32f0xx_syscfg.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_version.h
+.\stm32f0xx_syscfg.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_compiler.h
+.\stm32f0xx_syscfg.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_armcc.h
 .\stm32f0xx_syscfg.o: ..\3phase_inverter\system_stm32f0xx.h
 .\stm32f0xx_syscfg.o: ..\3phase_inverter\stm32f0xx_conf.h
 .\stm32f0xx_syscfg.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h

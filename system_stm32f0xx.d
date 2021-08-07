@@ -1,9 +1,10 @@
 .\system_stm32f0xx.o: system_stm32f0xx.c
 .\system_stm32f0xx.o: stm32f0xx.h
-.\system_stm32f0xx.o: D:\KeilC\ARM\CMSIS\Include\core_cm0.h
+.\system_stm32f0xx.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\core_cm0.h
 .\system_stm32f0xx.o: D:\KeilC\ARM\ARMCC\bin\..\include\stdint.h
-.\system_stm32f0xx.o: D:\KeilC\ARM\CMSIS\Include\core_cmInstr.h
-.\system_stm32f0xx.o: D:\KeilC\ARM\CMSIS\Include\core_cmFunc.h
+.\system_stm32f0xx.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_version.h
+.\system_stm32f0xx.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_compiler.h
+.\system_stm32f0xx.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_armcc.h
 .\system_stm32f0xx.o: system_stm32f0xx.h
 .\system_stm32f0xx.o: stm32f0xx_conf.h
 .\system_stm32f0xx.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h

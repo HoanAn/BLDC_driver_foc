@@ -2,10 +2,11 @@
 .\dma_control.o: DMA_control.h
 .\dma_control.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h
 .\dma_control.o: ..\3phase_inverter\stm32f0xx.h
-.\dma_control.o: D:\KeilC\ARM\CMSIS\Include\core_cm0.h
+.\dma_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\core_cm0.h
 .\dma_control.o: D:\KeilC\ARM\ARMCC\bin\..\include\stdint.h
-.\dma_control.o: D:\KeilC\ARM\CMSIS\Include\core_cmInstr.h
-.\dma_control.o: D:\KeilC\ARM\CMSIS\Include\core_cmFunc.h
+.\dma_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_version.h
+.\dma_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_compiler.h
+.\dma_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_armcc.h
 .\dma_control.o: ..\3phase_inverter\system_stm32f0xx.h
 .\dma_control.o: ..\3phase_inverter\stm32f0xx_conf.h
 .\dma_control.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h
@@ -34,3 +35,4 @@
 .\dma_control.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h
 .\dma_control.o: stm32f0xx_it.h
 .\dma_control.o: main.h
+.\dma_control.o: stm32f0xx.h

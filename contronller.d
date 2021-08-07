@@ -1,0 +1,14 @@
+.\contronller.o: Contronller.c
+.\contronller.o: Contronller.h
+.\contronller.o: D:\KeilC\ARM\ARMCC\bin\..\include\stdint.h
+.\contronller.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\dsp/fast_math_functions.h
+.\contronller.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\arm_math_types.h
+.\contronller.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_compiler.h
+.\contronller.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_armcc.h
+.\contronller.o: D:\KeilC\ARM\ARMCC\bin\..\include\string.h
+.\contronller.o: D:\KeilC\ARM\ARMCC\bin\..\include\math.h
+.\contronller.o: D:\KeilC\ARM\ARMCC\bin\..\include\float.h
+.\contronller.o: D:\KeilC\ARM\ARMCC\bin\..\include\limits.h
+.\contronller.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\arm_math_memory.h
+.\contronller.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\dsp/none.h
+.\contronller.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\dsp/utils.h

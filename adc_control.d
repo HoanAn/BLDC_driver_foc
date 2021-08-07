@@ -2,10 +2,11 @@
 .\adc_control.o: ADC_control.h
 .\adc_control.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h
 .\adc_control.o: ..\3phase_inverter\stm32f0xx.h
-.\adc_control.o: D:\KeilC\ARM\CMSIS\Include\core_cm0.h
+.\adc_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\core_cm0.h
 .\adc_control.o: D:\KeilC\ARM\ARMCC\bin\..\include\stdint.h
-.\adc_control.o: D:\KeilC\ARM\CMSIS\Include\core_cmInstr.h
-.\adc_control.o: D:\KeilC\ARM\CMSIS\Include\core_cmFunc.h
+.\adc_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_version.h
+.\adc_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_compiler.h
+.\adc_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_armcc.h
 .\adc_control.o: ..\3phase_inverter\system_stm32f0xx.h
 .\adc_control.o: ..\3phase_inverter\stm32f0xx_conf.h
 .\adc_control.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h
@@ -34,5 +35,6 @@
 .\adc_control.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h
 .\adc_control.o: stm32f0xx_it.h
 .\adc_control.o: main.h
+.\adc_control.o: stm32f0xx.h
 .\adc_control.o: PWM_control.h
 .\adc_control.o: I_O_control.h

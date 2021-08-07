@@ -2,10 +2,11 @@
 .\i_o_control.o: I_O_control.h
 .\i_o_control.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h
 .\i_o_control.o: ..\3phase_inverter\stm32f0xx.h
-.\i_o_control.o: D:\KeilC\ARM\CMSIS\Include\core_cm0.h
+.\i_o_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\core_cm0.h
 .\i_o_control.o: D:\KeilC\ARM\ARMCC\bin\..\include\stdint.h
-.\i_o_control.o: D:\KeilC\ARM\CMSIS\Include\core_cmInstr.h
-.\i_o_control.o: D:\KeilC\ARM\CMSIS\Include\core_cmFunc.h
+.\i_o_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_version.h
+.\i_o_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_compiler.h
+.\i_o_control.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_armcc.h
 .\i_o_control.o: ..\3phase_inverter\system_stm32f0xx.h
 .\i_o_control.o: ..\3phase_inverter\stm32f0xx_conf.h
 .\i_o_control.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h
@@ -34,3 +35,4 @@
 .\i_o_control.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h
 .\i_o_control.o: stm32f0xx_it.h
 .\i_o_control.o: main.h
+.\i_o_control.o: stm32f0xx.h

@@ -36,7 +36,7 @@
 /////Function/////
 void ADC_Common_config();
 void ADC_Single_channel_start_conversion (ADC_TypeDef* ADCx, uint32_t ADC_Channel, uint16_t ADC_SampleTime);
-void Back_Emf_detect(int Phase_A_Volt, int Phase_B_Volt, int Phase_C_Volt, int Virtual_Ground_Volt, uint8_t* Next_Step, uint8_t Step, uint8_t Start_up,int* zero_cross_period);// rreturn commutation moment.
+//void Back_Emf_detect(int Phase_A_Volt, int Phase_B_Volt, int Phase_C_Volt, int Virtual_Ground_Volt, uint8_t* Next_Step, uint8_t Step, uint8_t Start_up,int* zero_cross_period);// rreturn commutation moment.
 void Current_per_phase_calculate(uint16_t Current_Sense_A, uint16_t Current_Sense_B, uint16_t Current_Sense_C, int* Current_phase_A, int* Current_phase_B, int* Current_phase_C, uint8_t Step);
 //////////////////////	  
 	 

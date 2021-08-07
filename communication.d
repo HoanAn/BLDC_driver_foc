@@ -2,10 +2,11 @@
 .\communication.o: Communication.h
 .\communication.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_rcc.h
 .\communication.o: ..\3phase_inverter\stm32f0xx.h
-.\communication.o: D:\KeilC\ARM\CMSIS\Include\core_cm0.h
+.\communication.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\core_cm0.h
 .\communication.o: D:\KeilC\ARM\ARMCC\bin\..\include\stdint.h
-.\communication.o: D:\KeilC\ARM\CMSIS\Include\core_cmInstr.h
-.\communication.o: D:\KeilC\ARM\CMSIS\Include\core_cmFunc.h
+.\communication.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_version.h
+.\communication.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_compiler.h
+.\communication.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_armcc.h
 .\communication.o: ..\3phase_inverter\system_stm32f0xx.h
 .\communication.o: ..\3phase_inverter\stm32f0xx_conf.h
 .\communication.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h
@@ -34,3 +35,4 @@
 .\communication.o: .\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h
 .\communication.o: stm32f0xx_it.h
 .\communication.o: main.h
+.\communication.o: stm32f0xx.h

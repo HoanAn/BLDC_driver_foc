@@ -356,13 +356,13 @@
             <wLevel>0</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
-            <uC99>0</uC99>
+            <uC99>1</uC99>
             <useXO>0</useXO>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER, STM32F0xx, HSE_VALUE=8000000</Define>
               <Undefine></Undefine>
-              <IncludePath>.\STM32F0xx_StdPeriph_Driver\inc;..\3phase_inverter</IncludePath>
+              <IncludePath>.\STM32F0xx_StdPeriph_Driver\inc;..\3phase_inverter;.\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include;.\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -450,6 +450,11 @@
               <FileType>1</FileType>
               <FilePath>.\Communication.c</FilePath>
             </File>
+            <File>
+              <FileName>Contronller.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Contronller.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -509,6 +514,26 @@
               <FileName>stm32f0xx_usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\STM32F0xx_StdPeriph_Driver\src\stm32f0xx_usart.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Math</GroupName>
+          <Files>
+            <File>
+              <FileName>arm_cos_f32.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Source\FastMathFunctions\arm_cos_f32.c</FilePath>
+            </File>
+            <File>
+              <FileName>arm_sin_f32.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Source\FastMathFunctions\arm_sin_f32.c</FilePath>
+            </File>
+            <File>
+              <FileName>arm_sin_tables.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Source\CommonTables\arm_sin_tables.c</FilePath>
             </File>
           </Files>
         </Group>

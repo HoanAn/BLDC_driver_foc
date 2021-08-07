@@ -1,0 +1,14 @@
+.\arm_sin_tables.o: CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Source\CommonTables\arm_sin_tables.c
+.\arm_sin_tables.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\arm_math_types.h
+.\arm_sin_tables.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_compiler.h
+.\arm_sin_tables.o: D:\KeilC\ARM\ARMCC\bin\..\include\stdint.h
+.\arm_sin_tables.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\Core\Include\cmsis_armcc.h
+.\arm_sin_tables.o: D:\KeilC\ARM\ARMCC\bin\..\include\string.h
+.\arm_sin_tables.o: D:\KeilC\ARM\ARMCC\bin\..\include\math.h
+.\arm_sin_tables.o: D:\KeilC\ARM\ARMCC\bin\..\include\float.h
+.\arm_sin_tables.o: D:\KeilC\ARM\ARMCC\bin\..\include\limits.h
+.\arm_sin_tables.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\arm_sin_tables.h
+.\arm_sin_tables.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\dsp/fast_math_functions.h
+.\arm_sin_tables.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\arm_math_memory.h
+.\arm_sin_tables.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\dsp/none.h
+.\arm_sin_tables.o: .\CMSIS_5-develop\CMSIS_5-develop\CMSIS\DSP\Include\dsp/utils.h
